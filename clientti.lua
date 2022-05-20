@@ -305,7 +305,7 @@ AddEventHandler('tonttu_editped', function()
 		value      = -1,
 		type       = 'slider',
 		min        = -1,
-		max        = GetNumberOfPedPropDrawableVariations(PlayerPedId(), 1)
+		max        = GetNumberOfPedPropDrawableVariations(PlayerPedId(), 1)-1
 	})
 	table.insert(elements, {
 		label      = Config.Locales['glasses_colour'],
@@ -325,7 +325,7 @@ AddEventHandler('tonttu_editped', function()
 		value      = -1,
 		type       = 'slider',
 		min        = -1,
-		max        = GetNumberOfPedPropDrawableVariations(PlayerPedId(), 1)
+		max        = GetNumberOfPedPropDrawableVariations(PlayerPedId(), 1)-1
 	})
 	table.insert(elements, {
 		label      = Config.Locales['ears_colour'],
