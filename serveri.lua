@@ -1,8 +1,7 @@
 Config = {}
 
 Config.Allowed = {
-    'steam:11000013e01029d',
-    'steam:11000013d75a23f',
+    --'steam:tähänhexi',
 }
 
 function isAllowed(player)
