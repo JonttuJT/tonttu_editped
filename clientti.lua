@@ -110,7 +110,7 @@ AddEventHandler('tonttu_editped', function()
 	table.insert(elements, {
 		label      = Config.Locales['shirt_colour'],
 		component  = 3,
-		colour     = false,
+		colour     = true,
 		prop       = false,
 		value      = 0,
 		type       = 'slider',
